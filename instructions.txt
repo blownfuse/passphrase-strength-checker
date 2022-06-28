@@ -1,0 +1,2 @@
+Enter your passphrase.  It must be at least 15 characters.  
+Mixed cases, numbers, and special characters help, but make sure it is memorable! 
