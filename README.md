@@ -5,7 +5,7 @@ This has been tested in Fedora 36.
 
 Convert the .sh file to unix format to run
 
-Requires the libpwquality, rlwrap, and osd_cat packages
+Requires the libpwquality, rlwrap, and osd_cat (xosd) packages
 
 Configure the /etc/security/pwquality.conf file to reflect the desired number of pw characters (instructions.txt assumes this is to 15)
 
