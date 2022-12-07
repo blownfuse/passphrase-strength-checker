@@ -61,13 +61,13 @@ do
 		entrytext="" #leave the example text blank to save the time of deleting it
 	fi
 
-	#display the passphrase score or error message on screen
+	#display the passphrase score or error message on screen; change the font size on the --font line (24) to fit the screen
 	osd_cat \
 	--pos=middle \
 	--align=center \
 	--color=$color \
 	--shadow=2 \
-	--font='-*-liberation sans-*-r-*-*-24-*-*-*-*-*-*-*' \  #change the font size here (24) to fit the screen
+	--font='-*-liberation sans-*-r-*-*-24-*-*-*-*-*-*-*' \  
 	--barmode=percentage \
 	--percentage=$score \
 	--text="$message" \
