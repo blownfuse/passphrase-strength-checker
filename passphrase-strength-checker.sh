@@ -18,7 +18,7 @@ osd_cat /home/<user>/Desktop/instructions.txt \
 --align=center \
 --color=magenta \
 --shadow=2 \
---font='-*-liberation sans-*-r-*-*-26-*-*-*-*-*-*-*' \ 
+--font='-*-liberation sans-*-r-*-*-26-*-*-*-*-*-*-*' \
 --delay=9000 &
 
 while : #read in the passphrase and do the checks
@@ -67,7 +67,7 @@ do
 	--align=center \
 	--color=$color \
 	--shadow=2 \
-	--font='-*-liberation sans-*-r-*-*-24-*-*-*-*-*-*-*' \  
+	--font='-*-liberation sans-*-r-*-*-24-*-*-*-*-*-*-*' \
 	--barmode=percentage \
 	--percentage=$score \
 	--text="$message" \
