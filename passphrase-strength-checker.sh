@@ -11,14 +11,14 @@ trap "trap - SIGTERM && kill -- -$$" SIGINT SIGTERM EXIT #this kills all child p
 color="green"
 entrytext="This is an example passphrase!"
 
-#display basic passphrase checker instructions on screen; edit <user> to the appropriate directory
+#display basic passphrase checker instructions on screen; edit <user> to the appropriate directory; change the font size in the --font line (26) to fit the screen
 osd_cat /home/<user>/Desktop/instructions.txt \
 --pos=top \
 --offset=50 \
 --align=center \
 --color=magenta \
 --shadow=2 \
---font='-*-liberation sans-*-r-*-*-26-*-*-*-*-*-*-*' \ #change the font size here (26) to fit the screen
+--font='-*-liberation sans-*-r-*-*-26-*-*-*-*-*-*-*' \ 
 --delay=9000 &
 
 while : #read in the passphrase and do the checks
